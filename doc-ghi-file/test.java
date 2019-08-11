@@ -13,6 +13,7 @@ public class test {
             int c;
             while((c = in.read()) != -1) { // chua het file
                 out.write(c);
+                System.out.print(c + "-" + (char)c + " "); // in ra character code de thay ro
             }
         } finally {
             if( in != null){
