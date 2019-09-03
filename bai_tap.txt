@@ -1,0 +1,22 @@
+Đây là bài tập dành cho sửu nhuy
+1. Đọc kỹ code trong phần dayNhiPhanNK và tapHopConK
+2. Làm bài tập sau
+Viết code java in ra file các cấu hình như của dayChinhHopNK nhưng theo chiều ngược lại
+VD:
+000000
+100000
+200000
+...
+700000
+010000
+110000
+210000
+310000
+...
+577777
+677777
+777777
+
+Nguyên tắc:
+1. Dùng terminal tạo folder baitap trong folder dayChinhHopNK và lưu bài vào đó
+2. Dùng git để commit code lên GitHub
