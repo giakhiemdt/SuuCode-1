@@ -1,22 +1,11 @@
-Đây là bài tập dành cho sửu nhuy
-1. Đọc kỹ code trong phần dayNhiPhanNK và tapHopConK
-2. Làm bài tập sau
-Viết code java in ra file các cấu hình như của dayChinhHopNK nhưng theo chiều ngược lại
-VD:
-000000
-100000
-200000
-...
-700000
-010000
-110000
-210000
-310000
-...
-577777
-677777
-777777
+Đây là bài tập dành cho sửu nhuy 15 tháng 9
+1. Sửa onTap & baiTap2 để in ra file thay vì ra màn hình
+2. Viết code giải hệ phương trình 2,3,4 ẩn
+3. Viết code tìm thứ của các ngày nhập vào từ file và in kết quả ra file
+4. Viết code chuẩn hoá chuỗi
+    - Viết hoa chữ cái đầu của câu, còn lại viết thường
+    - Mỗi từ cách nhau đúng 1 đấu cách
+    - Trước các dấu câu (.,?!) không có dấu cách nhưng sau thì có
+    VD: sUu nHUY ,qUá      ? SaO đÂy    . --> Suu nhuy, quá? Sao đây.
 
-Nguyên tắc:
-1. Dùng terminal tạo folder baitap trong folder dayChinhHopNK và lưu bài vào đó
-2. Dùng git để commit code lên GitHub
+Nộp bài trước 22 tháng 9
