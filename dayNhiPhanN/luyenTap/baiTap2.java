@@ -1,7 +1,10 @@
 // Code by SuuNhuy
+import java.io.*;
 
 public class baiTap2 {
-    public static void main(String[] agrs) {
+    public static void main(String[] args) throws IOException {
+        
+        FileWriter fe = new FileWriter("dayChinhHop.txt");
         int[] mang = new int[6] ;
         boolean lietKeXong = false;
         for (;!lietKeXong;) {
@@ -18,15 +21,17 @@ public class baiTap2 {
                 }
                 mang[0] = soDem1 ;
                 if ( mang[0] != 8) {
-                    inRa(mang);
+                    inRa(fe, mang);
                 }
             }
         }
+        fe.close(); 
     }
-    public static void inRa(int[] mang) {
+    public static void inRa(FileWriter fe, int[] mang) throws IOException {
+        String a = "" ;
         for ( int soDem2 = 0 ; soDem2 < 6 ; soDem2++ ) {
-            System.out.print(mang[soDem2] + ",   ");
+            a += mang[soDem2] ;
         }
-        System.out.println();
+        fe.write(a + "\n");
     }
 }

@@ -1,8 +1,9 @@
-import java.util.*;
+import java.io.*;
 
 public class onTap {
-    public static void main (String[] agrs) {
+    public static void main (String[] agrs) throws IOException {
         int soThapPhan ;
+        FileWriter fw = new FileWriter("nhiPhan.txt");
         int[] mang = new int[8];
         for ( int soDem = 0 ; soDem < 256 ; soDem++ ) {
             soThapPhan = soDem;
@@ -10,13 +11,15 @@ public class onTap {
                 mang[n] = soThapPhan % 2 ;
                 soThapPhan = soThapPhan / 2;   
             }
-            inRa(mang);
-            System.out.println();
+            inRa(mang, fw);
         }
+        fw.close(); 
     }
-    public static void inRa(int[] mang) {
+    public static void inRa(int[] mang, FileWriter fw) throws IOException {
+        String a = "" ;
         for ( int x = 0 ; x < 8 ; x++ ) {
-            System.out.print(mang[x]);
+            a += mang[x] ;
         }
+        fw.write(a + "\n");
     }
 }

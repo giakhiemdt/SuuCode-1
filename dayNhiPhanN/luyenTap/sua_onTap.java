@@ -12,11 +12,9 @@ public class sua_onTap {
                 a = a / 2; // tính lại soThapPhan 
             }
             inMang(mang);
-
         // System.out.println("b: "+b);
         }
     }
-
     public static void inMang(int[] mang) {
         for (int i = 0; i < mang.length; i++) {
             System.out.print(mang[i]);
